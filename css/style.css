@@ -61,6 +61,9 @@ li{
   padding: 0 15px 0 15px;
 }
 
+.txt p :not(.arrow){
+  margin-bottom: 25px;
+}
 .jumbo.container{
   max-width: 1000px;
   position: relative;
@@ -104,7 +107,7 @@ h1.box{
   bottom: 20px;
 }
 
-/******************* HEADER ***************/
+/******************* /HEADER ***************/
 
 /********************* AZIONI *************/
 
