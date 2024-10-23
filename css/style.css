@@ -10,8 +10,8 @@ a{
   color: black;
 }
 
-.debug{
-  min-height: 55px;
+.debg{
+  min-height: px;
   min-width: 10px;
   background-color: rgba(137, 43, 226, 0.129);
   border: 1px solid black;
@@ -40,12 +40,22 @@ img{
   width: 100%;
 }
 
+.button{
+    color: white;
+    padding: 6px 11px 6px 11px;
+    background-color: #0261FF;
+}
+
 /******************* HEADER ***************/
 /****** header top********/
-
+header{
+  background-color: #B4D0E7;
+  position: relative;
+}
 .row.top{
   justify-content: space-between;
   font-size: 0.8rem;
+  background-color: white;
 }
 li{
   padding: 0 15px 0 15px;
@@ -53,10 +63,14 @@ li{
 
 .jumbo.container{
   max-width: 1000px;
+  position: relative;
+  height: 490px;
 }
 
 .col.txt{
   width: calc(100%/3);
+  line-height: 1.3rem;
+  
 }
 
 .col.img{
@@ -69,18 +83,27 @@ li{
   height: 55px;
   }
 
-.button{
-    color: white;
-    padding: 5px 11px 5px 11px;
-    background-color: #0261FF;
-}
-
   /***********jumbo***********/
 
 
-h1{
+h1.box{
   font-size: 4rem;
-}  
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
+
+
+.annulla{
+  margin-top: 25px;
+}
+
+.arrow{
+  font-size: 2.5rem;
+  position: absolute;
+  bottom: 20px;
+}
+
 /******************* HEADER ***************/
 
 /********************* AZIONI *************/
