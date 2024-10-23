@@ -10,11 +10,11 @@ a{
   color: black;
 }
 
-.debg{
-  min-height: px;
-  min-width: 10px;
+.debug{
   background-color: rgba(137, 43, 226, 0.129);
   border: 1px solid black;
+  min-height: 50px;
+  min-width: 50px;
 }
 
 .row{
@@ -23,8 +23,6 @@ a{
 }
 
 ul{
-  display: flex;
-  line-height: 55px;
   list-style: none;
 }
 
@@ -41,9 +39,13 @@ img{
 }
 
 .button{
-    color: white;
-    padding: 6px 11px 6px 11px;
-    background-color: #0261FF;
+  color: white;
+  padding: 6px 11px 6px 11px;
+  background-color: #0261FF;
+}
+
+.card{
+  border: 1px solid #D0D0D3;
 }
 
 /******************* HEADER ***************/
@@ -57,24 +59,27 @@ header{
   font-size: 0.8rem;
   background-color: white;
 }
-li{
+
+header ul{
+  display: flex;
+  line-height: 55px;
+}
+
+header li{
   padding: 0 15px 0 15px;
 }
 
-.txt p :not(.arrow){
-  margin-bottom: 25px;
-}
 .jumbo.container{
   max-width: 1000px;
   position: relative;
-  height: 490px;
+  height: 500px;
 }
 
 .col.txt{
   width: calc(100%/3);
   line-height: 1.3rem;
-  
 }
+
 
 .col.img{
   width: calc(100%/1.5);
@@ -95,7 +100,9 @@ h1.box{
   margin-top: 100px;
 }
 
-
+.presentazione{
+  margin-bottom: 25px;
+}
 
 .annulla{
   margin-top: 25px;
@@ -109,6 +116,16 @@ h1.box{
 
 /******************* /HEADER ***************/
 
+/******************* MAIN ******************/
+main .container{
+  max-width: 1000px;
+  padding-top: 160px;
+}
+
+/******************* /MAIN ******************/
+main .col{
+  width: calc(100%/ 3);
+}
 /********************* AZIONI *************/
 
 .line:hover{
