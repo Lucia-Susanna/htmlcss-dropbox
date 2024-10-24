@@ -5,6 +5,7 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
 .deug{
   background-color: rgba(137, 43, 226, 0.129);
   border: 1px solid black;
@@ -298,6 +299,10 @@ footer .box ul li:first-child{
 .underline{
   border-bottom: 1px solid black;
 }
+
+footer a{
+  color: white;
+}
 /********************** /FOOTER ****************/
 
 /********************* AZIONI *************/
@@ -309,7 +314,33 @@ footer .box ul li:first-child{
 opacity: 0.9;
 }
 
+
+
+
+.list-icon::before{
+  font-family: "Font Awesome 5 Free";
+  color: solid black;
+  font-size: .8rem;
+}
+
 .singolo::before{
-  content '/f007'
+  content: "\f007";
+}
+
+.folder::before{
+  content: "\f07b";
+}
+
+.team::before{
+  content:"\f0c0";
+}
+
+.azienda::before{
+  content: "\f1ad";
+}
+
+.check::before{
+  content: "\f00c";
+  color: #0261FF;
 }
 /********************* /AZIONI *************/
