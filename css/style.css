@@ -160,23 +160,24 @@ main .plan{
   display: flex;
   margin-top: 56px;
   margin-bottom: 40px;
+  justify-content: space-between;
 }
 
 .plan .col{
+  max-width: 300px;
   width: calc(100%/3);
   border: 1px solid #D3D3D6;
   margin-bottom: 40px;
   gap: 40px;
+ 
 }
 
-.plan .col {
- margin: 0 30px 0 30px;
-}
 
  
 
 .plan .card{
-  padding: 15px 27px 25px 27px;
+  padding: 15px 30px 25px 30px;
+  
 }
 
 .plan .card *{
@@ -247,17 +248,29 @@ p.user{
   width: 140px;
   padding: 10px;
   border-radius: 2px;
-  
+
 }
 /*************** business ***********/
 .business{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
+  justify-content: space-between;
 
 }
 .business .col{
   max-width: calc(100%/3);
+}
+
+.business .card{
+  max-width: 280px;
+  margin-top: 60px;
+}
+
+/************** clienti ***********/
+
+.clienti{
+  margin-top: 150px;
 }
 
 /******************* /MAIN ******************/
