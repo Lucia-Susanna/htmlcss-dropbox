@@ -343,4 +343,8 @@ opacity: 0.9;
   content: "\f00c";
   color: #0261FF;
 }
+
+.earth::before{
+  content: "\f1ab";
+}
 /********************* /AZIONI *************/
