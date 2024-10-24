@@ -5,6 +5,13 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.debsg{
+  background-color: rgba(137, 43, 226, 0.129);
+  border: 1px solid black;
+  min-height: 50px;
+  min-width: 50px;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -13,12 +20,6 @@ a{
 a.blu{
   text-decoration: underline;
   color:blue;
-}
-.debsg{
-  background-color: rgba(137, 43, 226, 0.129);
-  border: 1px solid black;
-  min-height: 50px;
-  min-width: 50px;
 }
 
 .row{
@@ -46,10 +47,12 @@ img{
   color: white;
   padding: 6px 11px 6px 11px;
   background-color: #0261FF;
+  text-align: center;
 }
 .card{
   width: 100%;
   border: 1px solid #D3D3D6;
+
 }
 
 /******************* HEADER ***************/
@@ -121,6 +124,17 @@ h1.box{
 /******************* /HEADER ***************/
 
 /******************* MAIN ******************/
+
+h2{
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+h3{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
 main .container{
   max-width: 1000px;
   padding-top: 160px;
@@ -129,15 +143,41 @@ main .container{
 main .col{
   min-width: calc(100% / 3);
   display: flex;
+  margin: 35px 0 35px 0;
 }
 
 .card section{
-  margin: 50px 20px;
+  margin: 27px;
+}
+
+.card li{
+  padding: 10px 0 10px 0;
 }
 
 .card .row{
   justify-content: space-between;
 }
+
+.card .button{
+  margin-bottom: 25px;
+  padding: 10px;
+}
+
+.card section:nth-child(4){
+  padding-bottom: 35px;
+  border-bottom: 1px solid #D3D3D6;
+}
+.plan{
+  text-align: center;
+  border-bottom: 1px solid #D3D3D6;
+  padding: 7px;
+  border-style: 
+}
+
+.selezione p:last-child{
+  margin-left: 40px;
+}
+
 /******************* /MAIN ******************/
 
 /********************* AZIONI *************/
