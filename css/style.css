@@ -5,11 +5,15 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-a :not(.blu){
+a{
   text-decoration: none;
   color: black;
 }
 
+a.blu{
+  text-decoration: underline;
+  color:blue;
+}
 .debug{
   background-color: rgba(137, 43, 226, 0.129);
   border: 1px solid black;
@@ -45,9 +49,6 @@ img{
 }
 .card{
   width: 100%;
-}
-
-
 }
 
 /******************* HEADER ***************/
@@ -131,6 +132,11 @@ main .col{
 
 .card section{
   margin: 50px 20px;
+}
+
+.card .row{
+  justify-content: space-between;
+}
 /******************* /MAIN ******************/
 
 /********************* AZIONI *************/
