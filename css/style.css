@@ -14,7 +14,7 @@ a.blu{
   text-decoration: underline;
   color:blue;
 }
-.debug{
+.debsg{
   background-color: rgba(137, 43, 226, 0.129);
   border: 1px solid black;
   min-height: 50px;
@@ -49,6 +49,7 @@ img{
 }
 .card{
   width: 100%;
+  border: 1px solid #D3D3D6;
 }
 
 /******************* HEADER ***************/
