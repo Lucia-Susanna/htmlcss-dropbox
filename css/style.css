@@ -43,9 +43,10 @@ img{
   padding: 6px 11px 6px 11px;
   background-color: #0261FF;
 }
+.card{
+  width: 100%;
+}
 
-.card section{
-  margin: 50px 20px;
 
 }
 
@@ -121,12 +122,17 @@ h1.box{
 main .container{
   max-width: 1000px;
   padding-top: 160px;
+  }
+
+main .col{
+  min-width: calc(100% / 3);
+  display: flex;
 }
 
+.card section{
+  margin: 50px 20px;
 /******************* /MAIN ******************/
-main .col{
-  width: calc(100%/ 3);
-}
+
 /********************* AZIONI *************/
 
 .line:hover{
