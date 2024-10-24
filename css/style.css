@@ -12,6 +12,10 @@
   min-width: 30px;
 }
 
+.bold{
+  font-weight: 600;
+}
+
 a{
   text-decoration: none;
   color: black;
@@ -126,17 +130,18 @@ h1.box{
 /******************* MAIN ******************/
 
 h2{
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   font-weight: 600;
   margin-bottom: 50px;
   
 }
 
 h3{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: 600;
   padding-top: 15px;
   padding-bottom: 7px;
+  line-height: 2rem;
 }
 
 main .container{
@@ -144,21 +149,34 @@ main .container{
   padding-top: 160px;
   }
 
-.plan{
+  main li{
+  padding-top: 8px;
+  }
+.intestazione .row p{
+  margin-right: 50px;
+}
+/********************* plan *********/
+main .plan{
   display: flex;
-  margin-top: 50px;
-  flex-wrap: wrap;
+  margin-top: 56px;
+  margin-bottom: 40px;
 }
 
 .plan .col{
   width: calc(100%/3);
   border: 1px solid #D3D3D6;
   margin-bottom: 40px;
-  
-  }
+  gap: 40px;
+}
+
+.plan .col {
+ margin: 0 30px 0 30px;
+}
+
+ 
 
 .plan .card{
-  padding: 15px 25px 25px 25px;
+  padding: 15px 27px 25px 27px;
 }
 
 .plan .card *{
@@ -170,9 +188,16 @@ p.user{
   padding: 7px;
   text-align: center;
 }
-
+.plan .col .card.type p:first-child{
+  font-size: .8rem;
+  font-weight: 600;
+}
+.plan .col .card.type p:last-child{
+  color: #777777;
+}
 .card .button{
-  padding: 10px;
+  padding: 7px 33px;
+  font-size: .9rem;
 }
 
 .card.cta{
@@ -187,24 +212,49 @@ p.user{
 .card.lunga{
   border: 1px solid #D3D3D6;
 }
+.card.lunga .descrizione{
+  padding: 27px;
+}
+
+.card.lunga .bold{
+  padding-top: 15px;
+  padding-bottom: 40px;
+}
 
 .card .row{
   align-items: center;
   justify-content: space-between;
 }
-
+/*********** partner ********/
 .box.partner{
   margin-top: 110px;
   margin-bottom: 110px;
 }
 
 .partner .txt{
-  margin: 30px;
+  margin: 40px 0 40px 40px;
+  padding-right: 60px;
 }
+.partner .txt p{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.button.white{
+  background-color: white;
+  color: black;
+  border: 1px solid #AEAEAE;
+  width: 140px;
+  padding: 10px;
+  border-radius: 2px;
+  
+}
+/*************** business ***********/
 .business{
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 100px;
+
 }
 .business .col{
   max-width: calc(100%/3);
@@ -221,4 +271,7 @@ p.user{
 opacity: 0.9;
 }
 
+.singolo::before{
+  content '/f007'
+}
 /********************* /AZIONI *************/
