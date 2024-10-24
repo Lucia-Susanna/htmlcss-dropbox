@@ -83,7 +83,7 @@ header li{
 .jumbo.container{
   max-width: 1000px;
   position: relative;
-  height: 500px;
+  max-height: 500px;
 }
 
 .col.txt{
@@ -172,9 +172,6 @@ main .plan{
  
 }
 
-
- 
-
 .plan .card{
   padding: 15px 30px 25px 30px;
   
@@ -254,7 +251,7 @@ p.user{
 .business{
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   justify-content: space-between;
 
 }
@@ -271,9 +268,37 @@ p.user{
 
 .clienti{
   margin-top: 150px;
+  margin-bottom: 100px;
 }
 
 /******************* /MAIN ******************/
+
+/********************** FOOTER ****************/
+footer{
+  background-color: black;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+footer .box{
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+footer .box ul li{
+  font-size: .9rem;
+  line-height: 2rem;
+}
+footer .box ul li:first-child{
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 13px;
+}
+
+.underline{
+  border-bottom: 1px solid black;
+}
+/********************** /FOOTER ****************/
 
 /********************* AZIONI *************/
 
