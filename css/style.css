@@ -321,6 +321,7 @@ opacity: 0.9;
   font-family: "Font Awesome 5 Free";
   color: solid black;
   font-size: .8rem;
+  font-weight: 900;
 }
 
 .singolo::before{
