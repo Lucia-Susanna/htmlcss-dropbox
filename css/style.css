@@ -81,6 +81,19 @@ header li{
   padding: 0 15px 0 15px;
 }
 
+.logo{
+  display: flex;
+  align-items: center;
+  height: 55px;
+  }
+/***********jumbo***********/
+
+h1.box{
+  font-size: 4rem;
+  margin-bottom: 40px;
+  margin-top: 100px;
+}
+
 .jumbo.container{
   max-width: 1000px;
   position: relative;
@@ -92,24 +105,8 @@ header li{
   line-height: 1.3rem;
 }
 
-
 .col.img{
   width: calc(100%/1.5);
-}
-
-.logo{
-  display: flex;
-  align-items: center;
-  height: 55px;
-  }
-
-  /***********jumbo***********/
-
-
-h1.box{
-  font-size: 4rem;
-  margin-bottom: 40px;
-  margin-top: 100px;
 }
 
 .presentazione{
@@ -313,9 +310,6 @@ footer a{
 .button:hover{
 opacity: 0.9;
 }
-
-
-
 
 .list-icon::before{
   font-family: "Font Awesome 5 Free";
