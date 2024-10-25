@@ -174,7 +174,7 @@ main .plan{
 }
 
 .plan .card{
-  padding: 15px 30px 25px 30px;
+  padding: 15px 34px 25px 34px;
   
 }
 
@@ -346,5 +346,10 @@ opacity: 0.9;
 
 .earth::before{
   content: "\f1ab";
+}
+
+.share::before{
+  content: "\f1e0"
+
 }
 /********************* /AZIONI *************/
